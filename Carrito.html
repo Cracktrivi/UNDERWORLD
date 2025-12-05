@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tu Carrito | UNDERWORLD</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400" rel="stylesheet">
+  <link rel="stylesheet" href="carrito.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="carrito.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Tu Carrito</h1>
+    <nav>
+      <a href="main.html">Inicio</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="carrito-container">
+      <h2>Productos en el carrito</h2>
+      <table class="carrito-tabla">
+        <thead>
+          <tr>
+            <th>Producto</th>
+            <th>Precio</th>
+            <th>Cantidad</th>
+            <th>Subtotal</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3" style="text-align:right;"><strong>Total:</strong></td>
+            <td><strong id="total-carrito">€0.00</strong></td>
+          </tr>
+        </tfoot>
+      </table>
+
+      <div class="carrito-acciones">
+        <a href="pago.html"><button class="comprar continuar">Continuar compra</button></a>
+        <button class="comprar vaciar">Vaciar carrito</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 UNDERWORLD. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
