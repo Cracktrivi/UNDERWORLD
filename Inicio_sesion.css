@@ -4,7 +4,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #222; /* color oscuro para el fondo */
+  background: #222; 
   margin: 0;
 }
 
@@ -130,3 +130,4 @@ body {
   width: 1.5rem;
   height: 1.5rem;
 }
+
