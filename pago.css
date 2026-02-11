@@ -1,4 +1,11 @@
-/* From Uiverse.io by zanina-yassine */ 
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #222; 
+  margin: 0;
+}
 .modal {
   width: fit-content;
   height: fit-content;
@@ -141,4 +148,5 @@
 
 .input_field[type=number] {
   -moz-appearance: textfield;
+
 }
